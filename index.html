@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galore Technologies — Azure consulting for governed Claude deployments</title>
+<meta name="description" content="Galore Technologies is an Azure consultancy helping regulated enterprises deploy Claude on Azure AI Foundry with identity, network, audit and policy controls in place.">
+<style>
+  :root{
+    --bg:#ffffff;
+    --ink:#16202a;
+    --muted:#5b6b78;
+    --rule:#dfe5ea;
+    --accent:#1a4f7a;
+    --max:720px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  a{color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+  header{border-bottom:1px solid var(--rule);padding:28px 0}
+  .name{font-size:15px;font-weight:600;letter-spacing:.02em}
+  .name span{color:var(--muted);font-weight:400}
+
+  h1{
+    font-size:clamp(1.7rem,4.5vw,2.35rem);
+    line-height:1.2;letter-spacing:-.02em;
+    margin:56px 0 0;max-width:20ch;font-weight:650;
+  }
+  .lede{margin:20px 0 0;font-size:1.06rem;color:#2c3a45}
+
+  h2{
+    font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--muted);font-weight:600;margin:0 0 14px;
+  }
+  section{padding:44px 0;border-top:1px solid var(--rule)}
+  section:first-of-type{border-top:0}
+  p{margin:0 0 16px}
+  p:last-child{margin-bottom:0}
+
+  ul{margin:0;padding-left:20px}
+  li{margin-bottom:9px}
+  li:last-child{margin-bottom:0}
+  li strong{font-weight:600}
+
+  .contact a{font-size:1.15rem;font-weight:600;text-decoration:none;border-bottom:2px solid var(--accent)}
+  footer{border-top:1px solid var(--rule);padding:24px 0 48px;color:var(--muted);font-size:13.5px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap"><div class="name">Galore Technologies<span> — Frisco, Texas</span></div></div>
+</header>
+
+<main class="wrap">
+
+  <h1>Azure consulting for teams putting Claude into production.</h1>
+  <p class="lede">
+    We help enterprises deploy Claude on Azure AI Foundry inside their own tenant — with
+    identity, network isolation, audit logging and policy enforcement designed in from the
+    start, rather than retrofitted when the security review comes.
+  </p>
+
+  <section>
+    <h2>What we do</h2>
+    <p>
+      Most Claude projects don't stall on capability. They stall in security review. Where does
+      the data go, who can call the model, what did it see, and can any of that be proven to an
+      auditor. Those questions take months to answer after the fact and far less time when the
+      architecture was built to answer them.
+    </p>
+    <p>
+      Our work is the Azure side of that problem: the identity model, the network boundary, the
+      logging and retention design, and the policy guardrails that keep an ungoverned deployment
+      from appearing in someone's subscription.
+    </p>
+  </section>
+
+  <section>
+    <h2>Where we focus</h2>
+    <ul>
+      <li><strong>Identity and access</strong> — Microsoft Entra ID, managed identities, RBAC, Conditional Access. No shared keys.</li>
+      <li><strong>Network isolation</strong> — private endpoints and VNet integration, so model traffic stays off the public internet.</li>
+      <li><strong>Audit and retention</strong> — diagnostic logging into Log Analytics, correlated back to the calling identity.</li>
+      <li><strong>Policy guardrails</strong> — Azure Policy definitions that prevent ungoverned deployments at creation time.</li>
+      <li><strong>Cost control</strong> — tagging, budgets and quota management so consumption is attributable by team.</li>
+      <li><strong>Evaluation</strong> — regression testing against model updates, so output drift is caught before users find it.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Background</h2>
+    <p>
+      Galore Technologies is an independent consultancy with a background in Microsoft Azure
+      infrastructure — landing zones, identity architecture, governance and cloud operations.
+      We are applying that same discipline to Claude deployments, which became generally
+      available on Microsoft AI Foundry in 2026.
+    </p>
+    <p>
+      Led by Sridhar Chigurupati, Founder and Principal Architect, working with a delivery team
+      across the United States and India.
+    </p>
+  </section>
+
+  <section>
+    <h2>Who we work with</h2>
+    <p>
+      Healthcare, financial services, insurance and public sector organizations that already run
+      on Azure and intend to keep identity, governance and billing where they are. Typically the
+      prototype already works and the compliance review is the thing standing between it and
+      production.
+    </p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p><a href="mailto:sridhar@galoretechnologies.com">sridhar@galoretechnologies.com</a></p>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  © 2026 Galore Technologies. Claude is a product of Anthropic. Azure and Microsoft Entra ID are products of Microsoft.
+</footer>
+
+</body>
+</html>
